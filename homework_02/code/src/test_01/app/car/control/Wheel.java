@@ -1,6 +1,6 @@
-package test_01.app.control;
+package test_01.app.car.control;
 
-import test_01.app.car.steerinSystem.SteeringSystem;
+import test_01.app.car.device.steerinSystem.SteeringSystem;
 
 public class Wheel {
   private SteeringSystem steeringSystem;

@@ -1,4 +1,4 @@
-package test_01.app.car;
+package test_01.app.car.device;
 
 public class CarDisplay {
   public void show() {

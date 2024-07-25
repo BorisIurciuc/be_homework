@@ -1,12 +1,12 @@
 package test_01.app;
 
-import test_01.app.car.CarDisplay;
-import test_01.app.car.ignitionSystem.Engine;
-import test_01.app.car.ignitionSystem.Radio;
-import test_01.app.car.steerinSystem.SteeringSystem;
-import test_01.app.control.Driver;
-import test_01.app.control.Ignition;
-import test_01.app.control.Wheel;
+import test_01.app.car.device.CarDisplay;
+import test_01.app.car.device.ignitionSystem.Engine;
+import test_01.app.car.device.ignitionSystem.Radio;
+import test_01.app.car.device.steerinSystem.SteeringSystem;
+import test_01.app.car.control.Driver;
+import test_01.app.car.control.Ignition;
+import test_01.app.car.control.Wheel;
 
 /**
  * 25/07/2024 be_homework * @author Boris Iurciuc (cohort36)

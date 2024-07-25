@@ -1,11 +1,14 @@
-package test_01.app.control;
+package app.car.control;
 
-import test_01.app.car.CarDisplay;
+import app.car.device.CarDisplay;
+import org.springframework.beans.factory.annotation.Autowired;
 
 public class Driver {
-
+  @Autowired
   private CarDisplay carDisplay;
+  @Autowired
   private Ignition ignition;
+  @Autowired
   private Wheel wheel;
 
   public void setCarDisplay(CarDisplay carDisplay) {
