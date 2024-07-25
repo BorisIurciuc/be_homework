@@ -3,7 +3,7 @@ package app.car.control;
 import app.car.device.ignitionSystem.Engine;
 import app.car.device.ignitionSystem.Radio;
 import org.springframework.beans.factory.annotation.Autowired;
-
+// зажигание
 public class Ignition {
   @Autowired
   private Engine engine;

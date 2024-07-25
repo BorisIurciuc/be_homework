@@ -2,7 +2,7 @@ package app.car.control;
 
 import app.car.device.CarDisplay;
 import org.springframework.beans.factory.annotation.Autowired;
-
+//водитель
 public class Driver {
   @Autowired
   private CarDisplay carDisplay;

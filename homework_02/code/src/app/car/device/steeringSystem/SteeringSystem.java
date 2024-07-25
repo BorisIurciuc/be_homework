@@ -1,6 +1,6 @@
 package app.car.device.steeringSystem;
 
-// руль
+// рулевая система
 public class SteeringSystem {
 
   public void work() {

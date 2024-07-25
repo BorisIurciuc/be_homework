@@ -2,7 +2,7 @@ package app.car.control;
 
 import app.car.device.steeringSystem.SteeringSystem;
 import org.springframework.beans.factory.annotation.Autowired;
-
+//руль
 public class Wheel {
   @Autowired
   private SteeringSystem steeringSystem;
