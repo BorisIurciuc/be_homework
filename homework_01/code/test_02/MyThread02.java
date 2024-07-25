@@ -1,4 +1,4 @@
-package homework_01.test_02;
+package test_02;
 
 public class MyThread02 extends Thread {
 

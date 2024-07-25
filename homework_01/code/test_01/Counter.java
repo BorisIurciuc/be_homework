@@ -1,4 +1,4 @@
-package homework_01.test_01;
+package test_01;
 
 /**
  * 22/07/2024 be_homework * @author Boris Iurciuc (cohort36)
