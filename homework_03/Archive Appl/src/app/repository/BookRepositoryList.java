@@ -16,13 +16,11 @@ public class BookRepositoryList implements BookRepository{
     database.add(new Book(2L, "Geography", new BigDecimal(550)));
     database.add(new Book(3L, "Math", new BigDecimal(750)));  }
 
-
-
   @Override
   public Book getById(Long id) {
     return database
         .stream()
-        .filter(product -> product.getId().equals(id))
+        .filter(book -> book.getId().equals(id))
         .findFirst()
         .orElse(null);
   }
