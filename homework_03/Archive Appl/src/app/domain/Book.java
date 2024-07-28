@@ -5,28 +5,19 @@ import java.util.Objects;
 
 public class Book {
 
-  private Long id;
-  private String title;
-  private BigDecimal pages;
+  private final Long id;
+  private final String title;
+  private final BigDecimal pages;
   private String article;
 
   public Book(Long id, String title, BigDecimal pages) {
     this.id = id;
     this.title = title;
     this.pages = pages;
-
-  }
-
-  public String getArticle() {
-    return article;
   }
 
   public Long getId() {
     return id;
-  }
-
-  public BigDecimal getPages() {
-    return pages;
   }
 
   public String getTitle() {

@@ -1,6 +1,5 @@
 package client;
 
-
 import app.controller.BookController;
 import app.domain.Book;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -15,8 +14,7 @@ public class Client {
 
     AbstractApplicationContext context = new AnnotationConfigApplicationContext("app");
     BookController controller = context.getBean(BookController.class);
-    Book book = controller.getById(1L);
+    Book book = controller.getById(3L);
     System.out.println(book);
   }
-
 }

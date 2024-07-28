@@ -2,7 +2,6 @@ package app.services;
 
 import app.domain.Book;
 import app.repository.BookRepository;
-import app.services.BookService;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.PropertySource;

@@ -1,0 +1,3 @@
+1 History 250
+2 Geography 550
+3 Math 750
